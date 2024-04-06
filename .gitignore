@@ -1,0 +1,13 @@
+.angular
+dist
+node_modules
+import sdk from '@stackblitz/sdk'
+
+sdk.embedProjectId(
+  'elementOrId',
+  'stackblitz-starters-e5vfle',
+  {
+    forceEmbedLayout: true,
+    openFile: 'package.json',
+  }
+);}
